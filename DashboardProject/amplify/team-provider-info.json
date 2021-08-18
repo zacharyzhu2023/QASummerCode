@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dashboardwebapp-dev-100055-authRole",
+      "UnauthRoleArn": "arn:aws:iam::319481862133:role/amplify-dashboardwebapp-dev-100055-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::319481862133:role/amplify-dashboardwebapp-dev-100055-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dashboardwebapp-dev-100055-deployment",
+      "UnauthRoleName": "amplify-dashboardwebapp-dev-100055-unauthRole",
+      "StackName": "amplify-dashboardwebapp-dev-100055",
+      "StackId": "arn:aws:cloudformation:us-east-1:319481862133:stack/amplify-dashboardwebapp-dev-100055/43153f20-d819-11eb-980a-0abfa7f51fd9",
+      "AmplifyAppId": "d3rzmv7edd52py"
+    },
+    "categories": {
+      "auth": {
+        "cognito5d5fc7e9": {}
+      },
+      "function": {
+        "dashboardFunctions": {
+          "deploymentBucketName": "amplify-dashboardwebapp-dev-100055-deployment",
+          "s3Key": "amplify-builds/dashboardFunctions-6a635a544c7a594a686f-build.zip"
+        }
+      }
+    }
+  }
+}

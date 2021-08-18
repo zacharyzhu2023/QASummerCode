@@ -1,0 +1,45 @@
+{
+  "paths": [
+    {
+      "name": "/functions",
+      "lambdaFunction": "dashboardFunctions",
+      "privacy": {
+        "protected": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ],
+        "unauth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/functions"
+    }
+  ],
+  "resourceName": "dashboardwebappapi",
+  "apiName": "dashboardwebappapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "dashboardFunctions"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 1,
+    "authRoleName": "amplify-dashboardwebapp-dev-100055-authRole",
+    "unAuthRoleName": "amplify-dashboardwebapp-dev-100055-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "dashboardFunctions",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
